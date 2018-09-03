@@ -1,0 +1,48 @@
+body
+{
+    text-align: center;
+    color: rgb(4, 52, 143);
+}
+
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+th, td
+{
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #969696
+}
+
+.bg
+{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pic
+{
+    width: 20%;
+    height: 20%;
+}
+
+.column
+{
+    float: left;
+    width: 33.33%;
+    height: 200px;
+    text-align: left;
+}
+
+.quote
+{
+    font-style: italic;
+    color: rgb(57, 57, 114);
+}
